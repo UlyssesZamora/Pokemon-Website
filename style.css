@@ -1,0 +1,16 @@
+body {
+  background-color: #ADD8E6;
+}
+
+.card {
+  margin: auto;
+}
+
+button {
+  margin-left: 25px;
+}
+
+#graph {
+  width: 50%;
+  margin: auto;
+}

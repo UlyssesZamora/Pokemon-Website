@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" ></script>
+   
+  </head>
+  <body>
+    
+    <header class = "bg-dark p-2 text-center text-white">
+      <h1>Pokemon Information</h1>
+        Enter Pokemon Name:
+      <input type="text" id = "keyword" placeholder="search" autocomplete="off">
+      <br>
+      <br>
+      <button type="button" id="btnSearch" class="btn btn-primary">Search</button>
+      <button type="button" id="statDsply" class="btn btn-primary">Display Base Stats</button>
+    </header>
+
+    <br>
+    
+    <div class="card" style="width: 18rem;">
+      <img id="pokeImg" src ="/img/ball.png"class="card-img-top">
+      <p id="pokeInfo"></p>
+    </div>
+
+    <div id="graph">
+      <canvas id="stats"></canvas>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
